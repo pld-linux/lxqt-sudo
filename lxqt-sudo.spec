@@ -6,16 +6,16 @@
 Summary:	GUI frontend for sudo/su
 Summary(pl.UTF-8):	Interfejs graficzny dla sudo/su
 Name:		lxqt-sudo
-Version:	2.4.0
+Version:	2.5.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-sudo/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	03a9150184475ed85fe41124a81a0223
+# Source0-md5:	41aa2d9bd3ae14454661fa519ed1ad07
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
-BuildRequires:	liblxqt-devel >= 2.4.0
+BuildRequires:	liblxqt-devel >= 2.5.0
 BuildRequires:	xz-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
